@@ -1,7 +1,7 @@
 $(document).ready(function (){
 
 $("button.add-item").click(function(){
-	alert("add item");
+	$("ul.list-items").append( "<li>dog food</li>");
 	})
 });
 
