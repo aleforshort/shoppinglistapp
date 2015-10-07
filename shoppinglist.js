@@ -2,7 +2,7 @@ $(document).ready(function (){
 
 $("button.add-item").on("click",(function(){
 	var grocery = $("#addto").val(); 
-	$("list-items").append( "<li>+grocery+</li>");
+	$("list-items").append( "<li>" + grocery + "</li>");
 	})
 });
 
